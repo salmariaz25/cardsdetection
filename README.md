@@ -5,8 +5,8 @@ Running the ‘ main.py ’  file can be used to call all other files.
 The uno card detection program created contains 7 python files namely main.py, capture_card.py, color_cards_detection.py, color_image_detection.py, power_cards_detection.py, power_image_detection.py, hsvrange_tracking.py .
 Once the main.py file is run the user is prompted to enter any of the 3 options which are:
 1.	Capture card if he requires to input an image to the dataset
-2.	Color cards detections menu which consists of reading card from the camera and detecting it or detecting image from the dataset
-3.	Power cards detections menu which also consists of reading card from the camera and detecting it or detecting image from the dataset
+2.	Color cards detections menu which consists of 2 options; which reading card from the camera and detecting it or detecting image from the dataset
+3.	Power cards detections menu which also consists of 2 options; reading card from the camera and detecting it or detecting image from the dataset
 
 How this program is carried out :
 The uno card detection scripts uses computer vision technique to identify and classify the uno cards based on their color and patterns. It solely relies on OpenCV, Numpy, ORB.
